@@ -1,6 +1,9 @@
 <script setup lang="ts">
 useHead({
 	title: 'Lautaro Pereyra | Web Developer & UI/UX Designer',
+	htmlAttrs: {
+		lang: 'en',
+	},
 	meta: [
 		{
 			name: 'description',
