@@ -11,7 +11,7 @@ defineProps<{ title: string; description: string; url: string; tag: string }>()
 	>
 		<Stack gap="2">
 			<span
-				class="text-xs uppercase bg-primary-500/10 text-primary-500 px-2.5 py-1 rounded-full w-min whitespace-nowrap font-medium tracking-wide"
+				class="text-xs uppercase bg-primary-50 text-primary-600 px-2.5 py-1 rounded-full w-min whitespace-nowrap font-medium tracking-wide"
 			>
 				{{ tag }}
 			</span>
@@ -21,7 +21,7 @@ defineProps<{ title: string; description: string; url: string; tag: string }>()
 			{{ description }}
 		</p>
 		<NuxtLink
-			class="flex items-center space-x-1 text-primary-500"
+			class="flex items-center space-x-1 text-primary-600"
 			:to="`https://${url}`"
 			target="_blank"
 		>

@@ -194,6 +194,7 @@ useHead({
 						<NuxtLink
 							class="duration-200 hover:bg-black/5 p-6 border-l-2"
 							to="mailto:hi@imlautaro.com"
+							aria-label="Contact via email"
 						>
 							<Icon name="lucide:chevron-right" />
 						</NuxtLink>
@@ -210,7 +211,7 @@ useHead({
 				</div>
 			</Section>
 			<Stack
-				class="text-gray-400"
+				class="text-gray-500"
 				gap="1"
 				items="center"
 				justify="center"
