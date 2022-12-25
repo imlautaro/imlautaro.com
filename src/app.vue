@@ -3,6 +3,10 @@ useHead({
 	title: 'Lautaro Pereyra | Web Developer & UI/UX Designer',
 	meta: [
 		{
+			name: 'description',
+			content: `I'm 17 years old and I'm from Buenos Aires, Argentina. I'm a frontend developer mainly focused on web apps development with Nuxt. I also love cats and learning new things all the time :D`,
+		},
+		{
 			name: 'theme-color',
 			content: '#4f46e5',
 		},
