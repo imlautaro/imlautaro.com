@@ -18,7 +18,9 @@ useHead({
 </script>
 
 <template>
-	<div class="font-sans text-gray-900 overflow-hidden">
+	<div
+		class="font-sans text-gray-900 overflow-hidden dark:(bg-gray-900 text-white)"
+	>
 		<Container
 			class="flex flex-col py-12 md:py-24 space-y-12 !px-6"
 			max="md"
@@ -30,19 +32,23 @@ useHead({
 						<span class="text-lg">Heeey,</span>
 						<h1 class="font-bold text-4xl">I'm Lautaro!</h1>
 					</Stack>
-					<div class="relative text-gray-100">
+					<div class="relative text-gray-100 dark:text-gray-700/25">
 						<Isotype class="w-6" />
 						<IsoDecoration
 							class="absolute -top-230 -left-6 -rotate-10 transform"
 						/>
 					</div>
 				</Stack>
-				<p class="text-lg text-gray-800 z-10">
+				<p class="text-lg text-gray-800 dark:text-white z-10">
 					I'm 17 years old and I'm from Buenos Aires, Argentina. I'm a
-					<b class="text-gray-900">frontend developer</b> mainly
-					focused on <b class="text-gray-900">web apps</b> development
-					with Nuxt. I also love cats <Icon name="emojione:cat" /> and
-					learning new things all the time :D
+					<b class="text-gray-900 dark:text-white"
+						>frontend developer</b
+					>
+					mainly focused on
+					<b class="text-gray-900 dark:text-white">web apps</b>
+					development with Nuxt. I also love cats
+					<Icon name="emojione:cat" /> and learning new things all the
+					time :D
 				</p>
 			</Stack>
 
@@ -190,12 +196,12 @@ useHead({
 					<Stack
 						gap="4"
 						items="center"
-						class="border-2 overflow-hidden rounded-2xl pl-6 -mx-3"
+						class="border-2 dark:border-gray-700 overflow-hidden rounded-2xl pl-6 -mx-3"
 					>
 						<Icon name="emojione:envelope" />
 						<span class="flex-1 w-full">hi@imlautaro.com</span>
 						<NuxtLink
-							class="duration-200 hover:bg-black/5 p-6 border-l-2"
+							class="duration-200 hover:bg-black/5 dark:(hover:bg-white/5 border-gray-700) p-6 border-l-2"
 							to="mailto:hi@imlautaro.com"
 							aria-label="Contact via email"
 						>
@@ -203,7 +209,7 @@ useHead({
 						</NuxtLink>
 					</Stack>
 					<NuxtLink
-						class="flex items-center space-x-4 p-6 border-2 rounded-2xl hover:bg-black/5 duration-200 -mx-3"
+						class="flex items-center space-x-4 p-6 border-2 dark:(border-gray-700 hover:bg-white/5) rounded-2xl hover:bg-black/5 duration-200 -mx-3"
 						to="https://t.me/imlautaro"
 						target="_blank"
 					>
@@ -226,6 +232,17 @@ useHead({
 				</span>
 			</Stack>
 		</Container>
+
+		<button
+			@click="
+				$colorMode.preference =
+					$colorMode.value === 'dark' ? 'light' : 'dark'
+			"
+			class="fixed flex bottom-4 right-4 p-4 rounded-full bg-black text-white z-50"
+		>
+			<Icon v-if="$colorMode.value === 'dark'" name="lucide:moon" />
+			<Icon v-else name="lucide:sun" />
+		</button>
 	</div>
 </template>
 

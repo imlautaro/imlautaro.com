@@ -1,7 +1,11 @@
 import { colors } from '@unocss/preset-mini'
 
 export default defineNuxtConfig({
+	colorMode: {
+		classSuffix: '',
+	},
 	extends: ['oxecore'],
+	modules: ['@nuxtjs/color-mode'],
 	srcDir: 'src',
 	typescript: {
 		shim: false,
@@ -10,6 +14,7 @@ export default defineNuxtConfig({
 		theme: {
 			colors: {
 				primary: colors!.indigo,
+				gray: colors!.neutral,
 			},
 		},
 		webFonts: {

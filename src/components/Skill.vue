@@ -13,12 +13,16 @@ defineProps<{
 		<Stack v-if="icons">
 			<Stack
 				v-for="icon in icons"
-				class="p-2 -m-2 bg-white shadow rounded-full text-sm"
+				class="p-2 -m-2 bg-white dark:(bg-gray-700 border border-gray-600) shadow rounded-full text-sm"
 			>
 				<Icon :name="icon" />
 			</Stack>
 		</Stack>
 		<span class="flex-1 w-full">{{ tech }}</span>
-		<Icon v-if="active" class="text-primary-500" name="ph:fire-duotone" />
+		<Icon
+			v-if="active"
+			class="text-primary-500 dark:text-primary-400"
+			name="ph:fire-duotone"
+		/>
 	</Stack>
 </template>

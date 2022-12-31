@@ -9,9 +9,9 @@ defineProps<{ title: string; icon: string; description: string }>()
 				<Icon class="text-base" :name="icon" />
 				{{ title }}
 			</h2>
-			<Icon class="text-gray-400" name="lucide:hash" />
+			<Icon class="text-gray-400 dark:text-gray-600" name="lucide:hash" />
 		</Stack>
-		<p class="text-gray-700">
+		<p class="text-gray-700 dark:text-gray-400">
 			{{ description }}
 		</p>
 		<slot />
