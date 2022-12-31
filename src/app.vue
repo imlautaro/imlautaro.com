@@ -19,7 +19,10 @@ useHead({
 
 <template>
 	<div class="font-sans text-gray-900 overflow-hidden">
-		<Container class="flex flex-col py-12 md:py-24 space-y-12" max="md">
+		<Container
+			class="flex flex-col py-12 md:py-24 space-y-12 !px-6"
+			max="md"
+		>
 			<!-- Presentation -->
 			<Stack gap="6" vertical>
 				<Stack gap="4">
