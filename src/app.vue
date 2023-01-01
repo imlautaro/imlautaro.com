@@ -232,17 +232,7 @@ useHead({
 				</span>
 			</Stack>
 		</Container>
-
-		<button
-			@click="
-				$colorMode.preference =
-					$colorMode.value === 'dark' ? 'light' : 'dark'
-			"
-			class="fixed flex bottom-4 right-4 p-4 rounded-full bg-black text-white z-50"
-		>
-			<Icon v-if="$colorMode.value === 'dark'" name="lucide:moon" />
-			<Icon v-else name="lucide:sun" />
-		</button>
+		<ColorMode />
 	</div>
 </template>
 
