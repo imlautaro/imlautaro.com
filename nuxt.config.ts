@@ -4,8 +4,14 @@ export default defineNuxtConfig({
 	colorMode: {
 		classSuffix: '',
 	},
+	css: ['~/assets/css/styles.css'],
 	extends: ['oxecore'],
-	modules: ['@nuxtjs/color-mode'],
+	googleFonts: {
+		families: {
+			Lexend: [400, 500, 700],
+		},
+	},
+	modules: ['@nuxtjs/color-mode', '@nuxtjs/google-fonts'],
 	srcDir: 'src',
 	typescript: {
 		shim: false,
@@ -15,11 +21,6 @@ export default defineNuxtConfig({
 			colors: {
 				primary: colors!.indigo,
 				gray: colors!.neutral,
-			},
-		},
-		webFonts: {
-			fonts: {
-				sans: 'Lexend:400,500,700',
 			},
 		},
 	},

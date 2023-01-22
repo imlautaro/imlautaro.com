@@ -18,9 +18,7 @@ useHead({
 </script>
 
 <template>
-	<div
-		class="font-sans text-gray-900 overflow-hidden dark:(bg-gray-900 text-white)"
-	>
+	<div class="text-gray-900 overflow-hidden dark:(bg-gray-900 text-white)">
 		<Container
 			class="flex flex-col py-12 md:py-24 space-y-12 !px-6"
 			max="md"
