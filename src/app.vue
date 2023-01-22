@@ -151,12 +151,18 @@ useHead({
 							<Skill
 								tech="Git & GitHub"
 								active
-								:icons="['logos:git-icon', 'logos:github-icon']"
+								:icons="[
+									'logos:git-icon',
+									'octicon:mark-github-16',
+								]"
 							/>
 							<Skill
 								tech="HTML & CSS"
 								active
-								:icons="['logos:html-5', 'logos:css-3']"
+								:icons="[
+									'vscode-icons:file-type-html',
+									'vscode-icons:file-type-css',
+								]"
 							/>
 							<Skill
 								tech="PayPal & MercadoPago"
@@ -166,6 +172,15 @@ useHead({
 								tech="Adobe XD & Figma"
 								:icons="['logos:adobe-xd', 'logos:figma']"
 							/>
+							<Skill
+								tech="Jest & Vitest"
+								:icons="['logos:jest', 'logos:vitest']"
+							/>
+							<Skill
+								tech="NGINX & PM2"
+								:icons="['logos:nginx', 'logos:pm2-icon']"
+							/>
+							<Skill tech="Docker" icon="logos:docker-icon" />
 						</SkillsCard>
 					</Stack>
 				</div>

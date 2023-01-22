@@ -13,7 +13,7 @@ defineProps<{
 		<Stack v-if="icons">
 			<Stack
 				v-for="icon in icons"
-				class="p-2 -m-2 bg-white dark:(bg-gray-700 border border-gray-600) shadow rounded-full text-sm"
+				class="p-2 -m-2 bg-white border border-transparent dark:(bg-gray-800 border-gray-600) shadow rounded-full text-sm"
 			>
 				<Icon :name="icon" />
 			</Stack>
