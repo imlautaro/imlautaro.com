@@ -10,7 +10,7 @@
 	"devDependencies": {
 		"@nuxtjs/color-mode": "^3.2.0",
 		"@nuxtjs/google-fonts": "3.0.0-1",
-		"nuxt": "3.0.0",
-		"oxecore": "^0.0.1"
+		"nuxt": "^3.2.3",
+		"oxecore": "^0.0.3"
 	}
 }
