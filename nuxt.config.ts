@@ -11,7 +11,7 @@ export default defineNuxtConfig({
 			Lexend: [400, 500, 700],
 		},
 	},
-	modules: ['@nuxtjs/color-mode', '@nuxtjs/google-fonts'],
+	modules: ['@nuxtjs/color-mode', '@nuxtjs/google-fonts', '@nuxt/content'],
 	srcDir: 'src',
 	typescript: {
 		shim: false,
