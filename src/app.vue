@@ -248,9 +248,3 @@ useHead({
 		<ColorMode />
 	</div>
 </template>
-
-<style>
-html {
-	-webkit-tap-highlight-color: transparent;
-}
-</style>
