@@ -13,7 +13,7 @@ export default defineNuxtConfig({
 	},
 	modules: ['@nuxtjs/color-mode', '@nuxtjs/google-fonts', '@nuxt/content'],
 	sourcemap: {
-		client: true,
+		client: false,
 	},
 	srcDir: 'src',
 	typescript: {
