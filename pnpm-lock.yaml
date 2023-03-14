@@ -6,6 +6,7 @@ specifiers:
   '@nuxtjs/google-fonts': 3.0.0
   nuxt: ^3.2.3
   oxecore: ^0.0.3
+  sitemap: ^7.1.1
 
 devDependencies:
   '@nuxt/content': 2.5.2
@@ -13,6 +14,7 @@ devDependencies:
   '@nuxtjs/google-fonts': 3.0.0
   nuxt: 3.2.3
   oxecore: 0.0.3_nuxt@3.2.3
+  sitemap: 7.1.1
 
 packages:
 
@@ -1840,10 +1842,13 @@ packages:
     dev: true
     optional: true
 
+  /@types/node/17.0.45:
+    resolution: {integrity: sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==}
+    dev: true
+
   /@types/node/18.15.0:
     resolution: {integrity: sha512-z6nr0TTEOBGkzLGmbypWOGnpSpSIBorEhC4L+4HeQ2iezKCi4f77kyslRwvHeNitymGQ+oFyIWGP96l/DPSV9w==}
     dev: true
-    optional: true
 
   /@types/parse5/6.0.3:
     resolution: {integrity: sha512-SuT16Q1K51EAVPz1K29DJ/sXjhSQ0zjvsypYJ6tlwVsRV9jwW5Adq2ch8Dq8kDBCkYnELS7N7VNCSB5nC56t/g==}
@@ -1851,6 +1856,12 @@ packages:
 
   /@types/resolve/1.20.2:
     resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
+    dev: true
+
+  /@types/sax/1.2.4:
+    resolution: {integrity: sha512-pSAff4IAxJjfAXUG6tFkO7dsSbTmf8CtUpfhhZ5VhkRpC4628tJhh3+V6H1E+/Gs9piSzYKT5yzHO5M4GG9jkw==}
+    dependencies:
+      '@types/node': 18.15.0
     dev: true
 
   /@types/tunnel/0.0.3:
@@ -2452,6 +2463,10 @@ packages:
     dependencies:
       delegates: 1.0.0
       readable-stream: 3.6.1
+    dev: true
+
+  /arg/5.0.2:
+    resolution: {integrity: sha512-PYjyFOLKQ9y57JvQ6QLo8dAgNqswh8M1RMJYdQduT6xbWSgK36P/Z/v+p888pM69jMMfS8Xd8F6I1kQ/I9HUGg==}
     dev: true
 
   /argparse/2.0.1:
@@ -6237,7 +6252,6 @@ packages:
   /sax/1.2.4:
     resolution: {integrity: sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==}
     dev: true
-    optional: true
 
   /scule/1.0.0:
     resolution: {integrity: sha512-4AsO/FrViE/iDNEPaAQlb77tf0csuq27EsVpy6ett584EcRTp6pTDLoGWVxCD77y5iU5FauOvhsI4o1APwPoSQ==}
@@ -6342,6 +6356,17 @@ packages:
       '@polka/url': 1.0.0-next.21
       mrmime: 1.0.1
       totalist: 3.0.0
+    dev: true
+
+  /sitemap/7.1.1:
+    resolution: {integrity: sha512-mK3aFtjz4VdJN0igpIJrinf3EO8U8mxOPsTBzSsy06UtjZQJ3YY3o3Xa7zSc5nMqcMrRwlChHZ18Kxg0caiPBg==}
+    engines: {node: '>=12.0.0', npm: '>=5.6.0'}
+    hasBin: true
+    dependencies:
+      '@types/node': 17.0.45
+      '@types/sax': 1.2.4
+      arg: 5.0.2
+      sax: 1.2.4
     dev: true
 
   /slash/4.0.0:

@@ -12,6 +12,11 @@ export default defineNuxtConfig({
 		},
 	},
 	modules: ['@nuxtjs/color-mode', '@nuxtjs/google-fonts', '@nuxt/content'],
+	runtimeConfig: {
+		public: {
+			baseUrl: 'http://localhost:3000',
+		},
+	},
 	sourcemap: {
 		client: false,
 	},
