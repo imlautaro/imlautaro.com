@@ -5,6 +5,7 @@ specifiers:
   '@nuxtjs/color-mode': ^3.2.0
   '@nuxtjs/google-fonts': 3.0.0
   nuxt: ^3.2.3
+  nuxt-schema-org: ^2.1.2
   oxecore: ^0.0.3
   sitemap: ^7.1.1
 
@@ -13,6 +14,7 @@ devDependencies:
   '@nuxtjs/color-mode': 3.2.0
   '@nuxtjs/google-fonts': 3.0.0
   nuxt: 3.2.3
+  nuxt-schema-org: 2.1.2
   oxecore: 0.0.3_nuxt@3.2.3
   sitemap: 7.1.1
 
@@ -1388,6 +1390,33 @@ packages:
       - supports-color
     dev: true
 
+  /@nuxt/kit/3.2.2:
+    resolution: {integrity: sha512-T3UeLxGSNl7dQgKzmtBbPEkUiiBYgXI+KkemmpkYbQK/l+bWy2f9VQw/Rl0HkQLfRTE2fS8q8jhsOedFiEnHQQ==}
+    engines: {node: ^14.18.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
+    dependencies:
+      '@nuxt/schema': 3.2.2
+      c12: 1.1.2
+      consola: 2.15.3
+      defu: 6.1.2
+      globby: 13.1.3
+      hash-sum: 2.0.0
+      ignore: 5.2.4
+      jiti: 1.17.2
+      knitwork: 1.0.0
+      lodash.template: 4.5.0
+      mlly: 1.1.1
+      pathe: 1.1.0
+      pkg-types: 1.0.2
+      scule: 1.0.0
+      semver: 7.3.8
+      unctx: 2.1.2
+      unimport: 2.2.4
+      untyped: 1.2.2
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
+    dev: true
+
   /@nuxt/kit/3.2.3:
     resolution: {integrity: sha512-wcsVlQLwGkh1cRhAFWHc3uYHdIxFTRNdRUzNyfqoX9DL0Fuga3K75q/PBY0xg1viA9R6F5BMPhc7KDLSWbXtWg==}
     engines: {node: ^14.18.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
@@ -1457,6 +1486,28 @@ packages:
       std-env: 3.3.1
       ufo: 1.0.1
       unimport: 1.3.0
+      untyped: 1.2.2
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
+    dev: true
+
+  /@nuxt/schema/3.2.2:
+    resolution: {integrity: sha512-o3O2OqLAMKqb/DlGpK8eJq4tH29NA4OMaohknSSXl35+Nw/qHB5eOLDz+cFxNE+MKHoMj1rRVMCfi/Y/PrCN6g==}
+    engines: {node: ^14.18.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
+    dependencies:
+      c12: 1.1.2
+      create-require: 1.1.1
+      defu: 6.1.2
+      hookable: 5.5.1
+      jiti: 1.17.2
+      pathe: 1.1.0
+      pkg-types: 1.0.2
+      postcss-import-resolver: 2.0.0
+      scule: 1.0.0
+      std-env: 3.3.2
+      ufo: 1.1.1
+      unimport: 2.2.4
       untyped: 1.2.2
     transitivePeerDependencies:
       - rollup
@@ -1884,6 +1935,13 @@ packages:
     dependencies:
       '@unhead/schema': 1.1.22
       '@unhead/shared': 1.1.22
+    dev: true
+
+  /@unhead/schema-org-vue/0.5.0:
+    resolution: {integrity: sha512-UEB54jF2+HBoHKqyqdw7oNLqdhDfEX/FSImtPT3oTDTfGBWpc7RGUPe2RG/j4N78Kk3SsfnHxxJO0GKIGPJRwQ==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      '@unhead/vue': '>=1.1.9'
     dev: true
 
   /@unhead/schema/1.1.22:
@@ -5263,6 +5321,18 @@ packages:
       - rollup
       - supports-color
       - vue
+    dev: true
+
+  /nuxt-schema-org/2.1.2:
+    resolution: {integrity: sha512-2mao0slpJgR4vOaDjhVKHn1apQ4ZH6T9FmmOmFus9YI9wAD6X6Q4USKWWoYRqNIyMEF2WX26sGr4uSPrhp1U9A==}
+    dependencies:
+      '@nuxt/kit': 3.2.2
+      '@unhead/schema-org-vue': 0.5.0
+      pathe: 1.1.0
+    transitivePeerDependencies:
+      - '@unhead/vue'
+      - rollup
+      - supports-color
     dev: true
 
   /nuxt/3.2.3:

@@ -11,7 +11,12 @@ export default defineNuxtConfig({
 			Lexend: [400, 500, 700],
 		},
 	},
-	modules: ['@nuxtjs/color-mode', '@nuxtjs/google-fonts', '@nuxt/content'],
+	modules: [
+		'@nuxtjs/color-mode',
+		'@nuxtjs/google-fonts',
+		'@nuxt/content',
+		'nuxt-schema-org',
+	],
 	runtimeConfig: {
 		public: {
 			baseUrl: 'http://localhost:3000',
