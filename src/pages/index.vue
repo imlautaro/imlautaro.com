@@ -174,6 +174,7 @@ useHead({
 								:icons="['logos:nginx', 'logos:pm2-icon']"
 							/>
 							<Skill tech="Docker" icon="logos:docker-icon" />
+							<Skill tech="Notion" icon="simple-icons:notion" />
 						</SkillsCard>
 					</Stack>
 				</div>
