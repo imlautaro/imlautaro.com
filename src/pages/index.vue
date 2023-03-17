@@ -60,10 +60,10 @@ useHead({
 							tag="PWA"
 						/>
 						<ProjectCard
-							title="Grow"
-							description="An example landing page for a digital marketing agency that offers different services"
-							url="grow-eight.vercel.app	"
-							tag="Landing Page"
+							title="Canto Sin Fronteras"
+							description="A complete website with content to learn to sing positioned in google for highly important keywords in the area"
+							url="cantosinfronteras.com"
+							tag="Full website"
 						/>
 					</Stack>
 					<Stack gap="6" vertical>
