@@ -22,9 +22,6 @@ export default defineNuxtConfig({
 			baseUrl: 'http://localhost:3000',
 		},
 	},
-	sourcemap: {
-		client: false,
-	},
 	srcDir: 'src',
 	typescript: {
 		shim: false,
