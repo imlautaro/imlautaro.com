@@ -7,6 +7,10 @@ const route = useRoute()
 const { data: article } = await useAsyncData(() =>
 	queryContent(`/articles/${route.params.slug}`).findOne()
 )
+
+useHead(() => ({
+	title: article?.value?.title || 'Loading...',
+}))
 </script>
 
 <template>
