@@ -1,6 +1,6 @@
 <template>
 	<Stack class="border-b p-4" gap="4" items="center" justify="between">
-		<Stack gap="2" items="center" to="/">
+		<Stack class="pl-2" gap="2" items="center" to="/">
 			<Isotype class="h-6" />
 			<span class="font-bold text-xl">imlautaro</span>
 		</Stack>
