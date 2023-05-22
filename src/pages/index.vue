@@ -4,7 +4,7 @@ useHead({
 	meta: [
 		{
 			name: 'description',
-			content: `I'm 17 years old and I'm from Buenos Aires, Argentina. I'm a frontend developer mainly focused on web apps development with Nuxt. I also love cats and learning new things all the time :D`,
+			content: `I'm 18 years old and I'm from Buenos Aires, Argentina. I'm a frontend developer mainly focused on web apps development with Nuxt. I also love cats and learning new things all the time :D`,
 		},
 	],
 })
@@ -31,7 +31,7 @@ useHead({
 					</div>
 				</Stack>
 				<p class="text-lg text-gray-800 dark:text-white z-10">
-					I'm 17 years old and I'm from Buenos Aires, Argentina. I'm a
+					I'm 18 years old and I'm from Buenos Aires, Argentina. I'm a
 					<b class="text-gray-900 dark:text-white"
 						>frontend developer</b
 					>
