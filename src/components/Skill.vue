@@ -21,8 +21,8 @@ defineProps<{
 		<span class="flex-1 w-full">{{ tech }}</span>
 		<Icon
 			v-if="active"
-			class="text-primary-500 dark:text-primary-400"
-			name="ph:fire-duotone"
+			class="text-primary-500 w-5 h-5 dark:text-primary-400"
+			name="lucide:zap"
 		/>
 	</Stack>
 </template>
