@@ -43,7 +43,7 @@
 						different rendering modes (SSR, SSG, CSR, etc.),
 						optimizing for SEO, performance, accessibility and with
 						caching related stuff. I also have experience developing
-						PWAs. Bonus: I've studyed UI/UX design for a long time
+						PWAs. Bonus: I've studied UI/UX design for a long time
 						so I'm very passionate about it too.
 					</p>
 					<h2 class="font-semibold !-mb-3 mt-6 text-2xl">
