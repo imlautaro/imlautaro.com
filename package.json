@@ -8,9 +8,9 @@
 		"postinstall": "nuxt prepare"
 	},
 	"devDependencies": {
-		"@nuxt/content": "^2.5.2",
-		"nuxt": "^3.8.2",
-		"oxecore": "^1.0.0",
+		"@nuxt/content": "^2.10.0",
+		"nuxt": "^3.9.3",
+		"oxecore": "^1.1.0",
 		"sitemap": "^7.1.1"
 	}
 }

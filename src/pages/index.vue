@@ -1,3 +1,9 @@
+<script setup lang="ts">
+useHead({
+	title: 'Lautaro Pereyra | Nuxt Expert',
+})
+</script>
+
 <template>
 	<div>
 		<Stack class="py-12 md:py-24" vertical>
@@ -427,6 +433,13 @@
 								<Skill
 									tech="Jest & Vitest"
 									:icons="['logos:jest', 'logos:vitest']"
+								/>
+								<Skill
+									tech="Cypress & Playwright"
+									:icons="[
+										'logos:cypress-icon',
+										'logos:playwright',
+									]"
 								/>
 								<Skill
 									tech="NGINX & PM2"
